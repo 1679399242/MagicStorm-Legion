@@ -16,8 +16,11 @@ It is fully based on *TrinityCore*, with upgrades like :
     - BlackRookHold
     - Darkheart Thicket
     - Eye Of Azshara
+    - NeltharionsLair
+    - TheArcway
+    - TheNighthold(4/6)
     - Mardum (DH start zone)
-    - Emerald Nightmare (1/7)
+    - Emerald Nightmare (2/7)
     - Tomb of Sargeras (1/9)
 - Wod Scripts (WIP)
     - full blizzlike Jungle of Tanaan intro
@@ -29,9 +32,8 @@ It is fully based on *TrinityCore*, with upgrades like :
     - Highmaul
 - Pandaria Scripts
     - all dungeons & world bosses
-
-with Ashamane Database (ADB) :
-
+    
+base:
 - All Cataclysm zones spawns
 - All Mist of Pandaria zones spawns
 - All Draenor zones spawns
@@ -48,10 +50,6 @@ Windows, Linux and macOS.
 
 Detailed installation guides are available in the [wiki](https://www.trinitycore.info/display/tc/Installation+Guide) for
 Windows, Linux and macOS.
-
-## Contribute
-
-You can help Ashamane using our [Patreon Page](https://www.patreon.com/ashamane). All the collected money will be used to pay developers for their work using bountysource
 
 ## Reporting issues
 
@@ -77,7 +75,5 @@ Read file [THANKS](THANKS).
 
 ## Links
 
-* [Website](https://www.ashamane.com)
 * [Wiki](https://www.trinitycore.info)
-* [Forums](http://forum.ashamane.com/)
 * [TrinityCore](https://www.trinitycore.org/)

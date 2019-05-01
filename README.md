@@ -53,8 +53,6 @@ Windows, Linux and macOS.
 
 ## Reporting issues
 
-Issues can be reported via our [Mantis issue tracker](https://bt.ashamane.com).
-
 Please take the time to review existing issues before submitting your own to
 prevent duplicates.
 

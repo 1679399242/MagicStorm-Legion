@@ -599,7 +599,6 @@ public:
                 {
                     m_forsakenGUID = npc->GetGUID();
                     npc->SetFlag(UNIT_FIELD_FLAGS, UNIT_FLAG_IMMUNE_TO_PC | UNIT_FLAG_IMMUNE_TO_NPC | UNIT_FLAG_NOT_SELECTABLE);
-                    m_events.ScheduleEvent(EVENT_CAST_BOULDER, urand(100, 5000));
                     m_events.ScheduleEvent(EVENT_CHECK_PLAYER, 1000);
                     me->setFaction(1735);
                     me->SetFlag(UNIT_FIELD_FLAGS, UNIT_FLAG_NOT_SELECTABLE);
@@ -616,7 +615,6 @@ public:
                 {
                     m_forsakenGUID = ObjectGuid::Empty;
                     npc->RemoveFlag(UNIT_FIELD_FLAGS, UNIT_FLAG_IMMUNE_TO_PC | UNIT_FLAG_IMMUNE_TO_NPC | UNIT_FLAG_NOT_SELECTABLE);
-                    m_events.CancelEvent(EVENT_CAST_BOULDER);
                     m_events.CancelEvent(EVENT_CHECK_PLAYER);
                     m_events.ScheduleEvent(EVENT_MASTER_RESET, 180000);
                     me->setFaction(35);
@@ -645,12 +643,6 @@ public:
                         }
 
                     m_events.ScheduleEvent(EVENT_CHECK_PLAYER, 1000);
-                    break;
-                }
-                case EVENT_CAST_BOULDER:
-                {
-                    me->CastSpell(me, SPELL_FIERY_BOULDER, true);
-                    m_events.ScheduleEvent(EVENT_CAST_BOULDER, urand(8000, 15000));
                     break;
                 }
                 case EVENT_MASTER_RESET:

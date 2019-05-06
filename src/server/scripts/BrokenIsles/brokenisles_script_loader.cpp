@@ -162,7 +162,7 @@ void AddSC_instance_seat_of_triumvirate();
 void AddSC_nythendra();
 void AddSC_ilgynoth();
 void AddSC_elerethe_renferal();
-void AddSC_ursoc();
+void AddSC_boss_ursoc();
 void AddSC_boss_dragons_of_nightmare();
 void AddSC_boss_cenarius();
 void AddSC_xavius();
